@@ -31,8 +31,9 @@ li{
 
 figcaption{
     font-size: medium;
-    text-align: left;
-    font-style: limegreen;
+    margin-left: auto;
+    
+
 }
     
 .box1{
