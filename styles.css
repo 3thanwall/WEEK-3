@@ -31,7 +31,7 @@ li{
 
 figcaption {
     color: white; /* Lime green color for the text */
-    text-align: left (50px);
+    border-radius: 10px;
     font-weight: bold;
 }
 
