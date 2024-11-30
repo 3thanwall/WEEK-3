@@ -29,7 +29,12 @@ li{
     background-color: aliceblue;
 }
 
-
+figcaption{
+    font-size: medium;
+    text-align: center;
+    font-display: purple;
+}
+    
 .box1{
     background-color: skyblue;
     height: 200px;
