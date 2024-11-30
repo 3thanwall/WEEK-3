@@ -29,13 +29,17 @@ li{
     background-color: aliceblue;
 }
 
-figcaption{
-    font-size: medium;
-    flex-direction: row;
-
-
+figcaption {
+    color: limegreen; /* Lime green color for the text */
+    font-size: 1.5rem; /* Adjust size as needed */
+    position: absolute;
+    top: -50%; /* Move the caption above the middle of the audio player */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    font-weight: bold;
 }
-    
+
+
 .box1{
     background-color: skyblue;
     height: 200px;
