@@ -30,7 +30,7 @@ li{
 }
 
 figcaption {
-    color: limegreen; /* Lime green color for the text */
+    color: white; /* Lime green color for the text */
     font-size: 1.5rem; /* Adjust size as needed */
     position: absolute;
     top: -50%; /* Move the caption above the middle of the audio player */
