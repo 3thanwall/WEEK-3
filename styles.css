@@ -31,8 +31,11 @@ li{
 
 figcaption {
     color: white; /* Lime green color for the text */
-    border-radius: 10px;
-    font-weight: bold;
+    font-size: 1.5rem;     /* Adjust the font size as needed */
+    font-weight: bold;     /* Make the text bold */
+    position: absolute;    /* Absolute position relative to its container */
+    top: -40px;            /* Move the text above the audio player */
+    right: 10px;           /* Position the text to the right */
 }
 
 
