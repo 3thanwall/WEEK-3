@@ -31,8 +31,8 @@ li{
 
 figcaption{
     font-size: medium;
-    margin-left: auto;
-    
+    flex-direction: row;
+
 
 }
     
