@@ -1,5 +1,60 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.container-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.push{
+    margin-left: auto;
+}
+
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 0px 3px;
+    border: 1px solid limegreen;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
 
 
+.box1{
+    background-color: skyblue;
+    height: 200px;
+    flex: 1 1 auto;
+}
+
+.box2{
+    background-color: lightgreen;
+    height: 200px;
+    flex: 1 1 auto;
+}
+
+.box3{
+    background-color: darkmagenta;
+    height: 200px;
+    flex: 1 1 auto;
+}
+
+.section-two{
+    background-color: orangered;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 body{
     background-color: limegreen;
