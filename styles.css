@@ -33,7 +33,7 @@ figcaption {
     color: white; /* Lime green color for the text */
     font-size: 1.5rem;     /* Adjust the font size as needed */
     font-weight: bold;     /* Make the text bold */
-    right: 100px;           /* Position the text to the right */
+    text-align: left;           /* Position the text to the right */
 }
 
 
