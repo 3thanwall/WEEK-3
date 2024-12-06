@@ -217,3 +217,20 @@ figure {
 }
 
 
+.media-container {
+    display: flex;
+    flex-direction: row; /* Align items in a row */
+    align-items: center; /* Center items vertically */
+    justify-content: flex-start; /* Align items to the left */
+    padding: 15px 25px;
+    gap: 20px; /* Add spacing between the image and the text */
+}
+
+.media-container .image {
+    flex: 0 0 auto; /* Ensure the image doesn't stretch */
+}
+
+.media-container .mediacontent {
+    flex: 1; /* Allow the text to take up remaining space */
+    text-align: left; /* Align text to the left */
+}
