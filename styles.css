@@ -175,16 +175,20 @@ header {
 
 /* section 3 youtube video */
 
+/* section 3 youtube video */
 .section-three {
     background-color: lightcoral;
     height: 800px;
-
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    align-items: center;    /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
 }
 
 iframe { 
     padding: 5px;
-    
 }
+
 
 
 /* section 4 embed audio */
