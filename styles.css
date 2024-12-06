@@ -180,9 +180,9 @@ header {
     background-color: lightcoral;
     height: 800px;
     display: flex;
-    flex-direction: column; /* Align items in a column */
-    align-items: center;    /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
 }
 
 iframe { 
@@ -193,11 +193,20 @@ iframe {
 
 /* section 4 embed audio */
 
+/* section 4 embed audio */
 .section-four {
     background-color: darkslateblue;
     height: 500px;
-    
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    align-items: center;    /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
 }
+
+figure {
+    text-align: center; /* Ensure the text aligns centrally */
+}
+
 
 /* section 5 media items */
 
